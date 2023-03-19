@@ -1,10 +1,8 @@
 module example
 
-go 1.16
+go 1.20
 
-replace github.com/iostrovok/pg => ../../..
 
-replace github.com/iostrovok/pg/extra/pgotel => ../
 
 require (
 	go.opentelemetry.io/otel v1.14.0

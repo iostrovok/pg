@@ -1,4 +1,4 @@
-module github.com/go-pg/pg/v10
+module github.com/iostrovok/pg
 
 go 1.20
 
@@ -19,4 +19,22 @@ require (
 	mellium.im/sasl v0.3.1
 )
 
-
+require (
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/fsnotify/fsnotify v1.4.9 // indirect
+	github.com/go-logr/logr v1.2.3 // indirect
+	github.com/go-logr/stdr v1.2.2 // indirect
+	github.com/google/go-cmp v0.5.9 // indirect
+	github.com/kr/pretty v0.2.1 // indirect
+	github.com/kr/text v0.1.0 // indirect
+	github.com/nxadm/tail v1.4.8 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/segmentio/asm v1.1.3 // indirect
+	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
+	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9 // indirect
+	golang.org/x/net v0.8.0 // indirect
+	golang.org/x/sys v0.6.0 // indirect
+	golang.org/x/text v0.8.0 // indirect
+	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
+)

@@ -26,11 +26,5 @@ go_mod_tidy:
 	GO111MODULE=on go mod verify && go mod tidy && go mod vendor  && go mod download
 	set -e; for dir in $(PACKAGE_DIRS); do \
 	  echo "go mod tidy in $${dir}"; \
-	  (cd "$${dir}" && \
-	    GO111MODULE=on \
-	    go mod verify && \
-	    go get -u && \
-	    go mod tidy && \
-	    go mod vendor && \
-	    go mod download); \
+	  (cd "$${dir}" && GO111MODULE=on go mod verify && go mod tidy && go mod vendor && go mod download); \
 	done

@@ -14,7 +14,7 @@ import (
 	"github.com/iostrovok/pg/orm"
 )
 
-var tracer = otel.Tracer("github.com/go-pg/pg")
+var tracer = otel.Tracer("github.com/iostrovok/pg")
 
 type queryOperation interface {
 	Operation() orm.QueryOp

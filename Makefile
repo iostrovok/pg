@@ -23,10 +23,14 @@ fmt:
 	goimports -w  -local github.com/go-pg/pg ./
 
 go_mod_tidy:
-	go get -u && go mod tidy
+	GO111MODULE=on go mod verify && go get -u && go mod tidy && go mod vendor  && go mod download
 	set -e; for dir in $(PACKAGE_DIRS); do \
 	  echo "go mod tidy in $${dir}"; \
 	  (cd "$${dir}" && \
+	    GO111MODULE=on \
+	    go mod verify && \
 	    go get -u && \
-	    go mod tidy); \
+	    go mod tidy && \
+	    go mod vendor && \
+	    go mod download); \
 	done

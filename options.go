@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-pg/pg/v10/internal/pool"
+	"github.com/iostrovok/pg/internal/pool"
 )
 
 // Options contains database connection options.

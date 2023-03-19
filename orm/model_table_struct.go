@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/go-pg/pg/v10/types"
+	"github.com/iostrovok/pg/types"
 )
 
 type structTableModel struct {

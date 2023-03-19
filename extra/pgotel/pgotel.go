@@ -10,8 +10,8 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/go-pg/pg/v10"
-	"github.com/go-pg/pg/v10/orm"
+	"github.com/iostrovok/pg"
+	"github.com/iostrovok/pg/orm"
 )
 
 var tracer = otel.Tracer("github.com/go-pg/pg")

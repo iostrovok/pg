@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-pg/zerochecker"
 
-	"github.com/go-pg/pg/v10/types"
+	"github.com/iostrovok/pg/types"
 )
 
 const (

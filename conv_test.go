@@ -13,10 +13,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-pg/pg/v10"
-	"github.com/go-pg/pg/v10/orm"
-	"github.com/go-pg/pg/v10/pgjson"
-	"github.com/go-pg/pg/v10/types"
+	"github.com/iostrovok/pg"
+	"github.com/iostrovok/pg/orm"
+	"github.com/iostrovok/pg/pgjson"
+	"github.com/iostrovok/pg/types"
 )
 
 type JSONMap map[string]interface{}

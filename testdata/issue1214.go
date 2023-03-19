@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/go-pg/pg/v10"
+	"github.com/iostrovok/pg"
 )
 
 type Test struct {

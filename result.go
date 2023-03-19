@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"strconv"
 
-	"github.com/go-pg/pg/v10/internal"
-	"github.com/go-pg/pg/v10/orm"
+	"github.com/iostrovok/pg/internal"
+	"github.com/iostrovok/pg/orm"
 )
 
 // Result summarizes an executed SQL command.
@@ -21,7 +21,7 @@ type result struct {
 
 var _ Result = (*result)(nil)
 
-//nolint
+// nolint
 func (res *result) parse(b []byte) error {
 	res.affected = -1
 

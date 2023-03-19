@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/go-pg/pg/v10"
+	"github.com/iostrovok/pg"
 )
 
 // DebugHook is a query hook that logs an error with a query if there are any.
 // It can be installed with:
 //
-//   db.AddQueryHook(pgext.DebugHook{})
+//	db.AddQueryHook(pgext.DebugHook{})
 type DebugHook struct {
 	// Verbose causes hook to print all queries (even those without an error).
 	Verbose   bool

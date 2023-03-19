@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-pg/pg/v10/types"
+	"github.com/iostrovok/pg/types"
 )
 
 func TestInOp(t *testing.T) {

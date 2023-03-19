@@ -8,7 +8,7 @@ import (
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 
 	"github.com/go-pg/pg/extra/pgotel/v10"
-	"github.com/go-pg/pg/v10"
+	"github.com/iostrovok/pg"
 )
 
 var tracer = otel.Tracer("app_or_package_name")
